@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Report</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.divfix {
+  /* fixed position a zero-height full width container */
+  position: fixed;
+  top: 390;
+  left: 0;
+  right: 0;
+  background: lightblue;
+  /* center all inline content */
+  //text-align: center;
+  //overflow: auto;
+   overflow:hidden;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  width: auto;
+  white-space: nowrap;
+}
+
+.container {
+  position: relative;
+  //text-align: center;<div class="container">
+  color: white;
+}
+
+
+
+.Name {
+  position: absolute;
+  top: 200px;
+  left:215px;
+}
+
+.Curriculum {
+  position: absolute;
+  top: 200px;
+  left:605px;
+}
+
+
+.Educator {
+  position: absolute;
+  top: 240px;
+  left:215px;
+}
+
+.Review {
+  position: absolute;
+  top: 240px;
+  left:605px;
+}
+
+.course {
+  position: absolute;
+  top: 120px;
+  left:190px;
+}
+
+input[type="text"]
+{
+font-family: Times New Roman;
+font-size:18px;  
+color: #3A3B3C;
+}
+
+select {
+		/* for Firefox */
+		width: 590px;
+ 		height: 30px;
+		-moz-appearance: none;
+		/* for Safari, Chrome, Opera */
+		-webkit-appearance: none;
+		background-color: #B3C19A;
+		font-size:20px; 
+		color: #3A3B3C;
+		position: absolute;
+  		top: 0px;
+  		left:0px; 
+	}
+
+	/* for IE10 */
+ select::-ms-expand {
+ 
+		display: none;
+	}
+</style>
+</head>
+<body>
+<div id="divfix">
+<div class="controls">
+<img src="Page 1-01.jpg" style="width:800px; hight:800px;">
+		
+		<div class="course">
+			<SELECT name="Score" style="border: none; background-color: none;outline: 0;">
+					<OPTION value="in" >Spruha - A Skill Development Transition Program</OPTION>
+					<OPTION value="be">Sutantra - A Digital Literacy Program</OPTION>
+					<OPTION value="de">Sameti - A Pre-academic Skills Program</OPTION>
+					<OPTION value="fr">Sattva - A Foundational Skills Intervention Program</OPTION>
+					<OPTION value="us">Siddhi - A Remedial Program</OPTION>
+					<OPTION value="ch">Shaale - NIOS Secondary and Senior Secondary</OPTION>
+					<OPTION value="be">Job Readiness Program</OPTION>
+			</SELECT>
+     	 	</div>
+		<div class="Curriculum">
+     		<input type="text" id="fname" name="fname" placeholder="Term" style="border: none; background-color: none;outline: 0;">
+     	 	</div>
+     		<div class="Educator">
+  		<input type="text" id="lname" name="lname" placeholder="Educator Name" style="border: none; background-color: none;outline: 0; "><br>
+    		</div>
+     		<div class="Name">
+ 	 	<input type="text" id="fname" name="fname" placeholder="Name" style="border: none; background-color: none;outline: 0; ">
+     		</div>
+     		<div class="Review">
+     		<input type="text" id="lname" name="lname" placeholder="Review" style="border: none; background-color: none;outline: 0; ">
+    		</div><br><br>
+
+		<div>
+		<br><br>
+		<object width="100%" height="410px" data="infomation.html"></object><br>
+		<br><br><br><br>
+		<div>
+		<br>
+
+		<div>
+		<object width="100%"  height="3500px" data="skill.html"></object>
+		<div>
+
+		<div>
+		<img src="Page 1-02.jpg" style="width:800px; hight:800px;">	 
+		</div>
+</div>
+</div>
+</body>
+</html> 
